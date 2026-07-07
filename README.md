@@ -41,13 +41,11 @@ Leverages Principal Component Analysis (PCA) and K-Means clustering to classify 
 ```text
 ├── data/                  # Transactional historical records & macro features
 ├── notebooks/             # Exploratory analysis & algorithm prototyping
-│   ├── anomaly_detection.ipynb
-│   ├── market_correlation_matrix.ipynb
-│   └── pca_segmentation.ipynb
-├── src/                   # Production source code
-│   ├── decomposition.py   # Trend & Seasonality separation module
-│   ├── forecaster.py      # Time-series modeling & inference engine
-│   └── clustering.py      # PCA matrix mapping & clustering logic
+├── ├── analyisis.ipynb
+├── ├── Charts
+│   ├── ├── anomaly_detection.png
+│   ├── ├──  market_correlation_matrix.png
+│   └── └── pca_segmentation.png
 ├── app.py                 # Streamlit UI dashboard application
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
